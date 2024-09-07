@@ -1,0 +1,11 @@
+.infos-bar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 50px;
+
+    @media (max-width: 640px) {
+        display: block;
+        padding: 8px;
+    }
+}
